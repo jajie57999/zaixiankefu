@@ -81,12 +81,6 @@
           _MEIQIA('metadata', metadata);
         } catch (e) { }
       }
-      if (data.encryptedmetadata) {
-        _MEIQIA('encryptedmetadata', data.encryptedmetadata);
-      }
-      if (data.requestperms) {
-        localStorage.setItem('requestperms', data.requestperms);
-      }
       if (data.language) {
         if (data.languagelocal !== 'true') {
           _MEIQIA('language', data.language);
